@@ -7,7 +7,7 @@ int selectDifficulty()
     sf::RenderWindow difficultyWindow(sf::VideoMode(400, 300), "Select Difficulty");
 
     sf::Font font;
-    if (!font.loadFromFile("D:\\PROJECT\\MemoryGame\\font\\HomeVideo-BLG6G.ttf")) {
+    if (!font.loadFromFile("D:\\PROJECT\\GameB\\font\\HomeVideo-BLG6G.ttf")) {
         std::cerr << "Failed to load font!\n";
         return 2;
     }
