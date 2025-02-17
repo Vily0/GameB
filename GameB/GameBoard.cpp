@@ -204,7 +204,7 @@ GameBoard::GameBoard(sf::RenderWindow* window, float tile_size, int board_width,
 	this->createBoard(board_width, board_height);
 	this->randomizeBoard();
 
-	if (!this->font.loadFromFile("D:\\PROJECT\\MemoryGame\\font\\HomeVideo-BLG6G.ttf")) {
+	if (!this->font.loadFromFile("D:\\PROJECT\\GameB\\font\\HomeVideo-BLG6G.ttf")) {
 		std::cerr << "Failed to load font!" << std::endl;
 	}
 
